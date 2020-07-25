@@ -1,4 +1,246 @@
 @import 'common';
+section.examples {
+    display: flex;
+    width: 100%;
+    img {
+        height: 100%;
+    }
+    .another-examples {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .patio-example {
+        position: relative;
+        .example-description {
+            position: absolute;
+            padding: 50px;
+            top: 28px;
+            left: 50px;
+            text-decoration: unset;
+            text-transform: uppercase;
+            color: #82a439;
+            h2 {
+                font-family: Poppins;
+                font-size: 30px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.25;
+                letter-spacing: 3px;
+                text-align: left;
+                margin-bottom: 26px;
+                margin-top: 0;
+            }
+            a {
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 1.4px;
+                text-decoration: unset;
+            }
+        }
+    }
+    .design-example {
+        position: relative;
+        .example-description {
+            position: absolute;
+            top: 51px;
+            left: 48px;
+            text-decoration: unset;
+            text-transform: uppercase;
+            color: #709aa5;
+            h2 {
+                font-family: Poppins;
+                font-size: 30px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.25;
+                letter-spacing: 3px;
+                text-align: left;
+                margin-bottom: 26px;
+                margin-top: 0;
+            }
+            a {
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 1.4px;
+                text-decoration: unset;
+            }
+        }
+    }
+    .ceramics-example {
+        position: relative;
+        .example-description {
+            position: absolute;
+            top: 53px;
+            left: 47px;
+            text-decoration: unset;
+            text-transform: uppercase;
+            color: #362f33;
+            h2 {
+                font-family: Poppins;
+                font-size: 30px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.25;
+                letter-spacing: 3px;
+                text-align: left;
+                margin-bottom: 26px;
+                margin-top: 0;
+            }
+            a {
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 1.4px;
+                text-decoration: unset;
+            }
+        }
+    }
+}
+
+
+section.our-collection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: #f9fafc;
+    padding: 22px 50px 50px 50px;
+    .heading-col {
+        width: 100%;
+        text-align: center;
+        margin: 50px auto 50px auto;
+            h1 {
+            margin-top: 0;
+            padding-top: 38px;
+            padding-bottom: 4px;
+            height: 30px;
+            font-family: Poppins;
+            font-size: 40px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.48;
+            letter-spacing: 4px;
+            text-align: center;
+            color: #1e1e1d;
+            text-transform: uppercase;
+                #our-col {
+                position: relative;
+                }
+                #our-col::after {
+                content: '';
+                position: absolute;
+                left: -49px;
+                bottom: -13px;
+                width: 230px;
+                height: 1px;
+                opacity: 0.8;
+                background-color: #1e1e1d;
+                }
+                #h1-collection {
+                position: relative;
+                }
+                #h1-collection::after {
+                content: '';
+                position: absolute;
+                left: 104px;
+                bottom: -13px;
+                width: 230px;
+                height: 1px;
+                opacity: 0.8;
+                background-color: #1e1e1d;
+                }
+            }
+        }
+        .flex-container {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            height: 100%;
+            width: 100%;
+            margin-top: 7px;
+            margin-bottom: 50px;
+            padding: 0 0 37px 0;
+        }
+            .item-collection {
+                width: 272px;
+                height: 400px;
+                position: relative;
+                background-color: #ffffff;
+                text-align: left;
+                margin: 15px;
+                    .new-chair {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 2;
+                    }
+                .item-card {
+                    cursor: pointer;
+                    color: inherit;
+                    text-decoration: unset;
+                }
+                .card-content {
+                    width: 272px;
+                    padding: 0 25px 25px 25px;
+                }
+                h2 {
+                    font-family: Poppins;
+                    font-size: 19.5px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 2.67;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #000000;
+                    text-transform: uppercase;
+                    margin: 0;
+                }
+                p.item-description {
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #6d6d6d;
+                    margin: 0;
+                }
+                p.price {
+                    font-family: Poppins;
+                    font-size: 27.5px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 2.73;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #000000;
+                    margin: 0;
+                }
+            }
+        
+
+
+
+
+    }
 section.our-designers {
     display: flex;
     flex-direction: column;
