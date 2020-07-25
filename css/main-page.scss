@@ -176,6 +176,7 @@ section.our-collection {
             padding: 0 0 37px 0;
         }
             .item-collection {
+                
                 width: 272px;
                 height: 400px;
                 position: relative;
@@ -188,6 +189,12 @@ section.our-collection {
                         left: 0;
                         z-index: 2;
                     }
+                    .hover-container {
+                    display: none;
+                    }
+                    
+                    
+                }
                 .item-card {
                     cursor: pointer;
                     color: inherit;
@@ -235,12 +242,96 @@ section.our-collection {
                     margin: 0;
                 }
             }
-        
-
-
-
-
-    }
+            div.item-collection:hover {
+                width: 302px;
+                height: 430px;
+                position: relative;
+                background-color: #ffffff;
+                text-align: left;
+                margin: 0px;
+                img {
+                    padding-left: 16px;
+                }
+                    .new-chair {
+                        position: absolute;
+                        padding-left: 0;
+                        top: 0;
+                        left: 0;
+                        z-index: 2;
+                    }
+                .hover-container {
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-content: center;
+                        opacity: 0.75;
+                        background-color: #f2cd7a;
+                        box-shadow: 0 0 38px 0 rgba(185, 174, 150, 0.73);
+                        z-index: 4;
+                        width: 302px;
+                        height: 430px;
+                        top: -7px;
+                        .buttons-hover {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 185px;
+                            height: 57px;
+                            opacity: 1.11;
+                            background-color: #343d4c;
+                            border-radius: 45px;
+                            margin-top: 26px;
+                            button {
+                                background-color: #343d4c;
+                                color: white;
+                                border: none;
+                                font-size: 18px;
+                                margin-top: 38px;
+                            }
+                        }
+                    }
+                .card-content {
+                    width: 272px;
+                    padding: 0 25px 25px 25px;
+                }
+                h2 {
+                    font-family: Poppins;
+                    font-size: 19.5px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 2.67;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #000000;
+                    text-transform: uppercase;
+                    margin: 0;
+                }
+                p.item-description {
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #6d6d6d;
+                    margin: 0;
+                }
+                p.price {
+                    font-family: Poppins;
+                    font-size: 27.5px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 2.73;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #000000;
+                    margin: 0;
+                }
+            }
 section.our-designers {
     display: flex;
     flex-direction: column;

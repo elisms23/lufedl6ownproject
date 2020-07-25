@@ -234,18 +234,22 @@ section.our-collection .item-collection .new-chair {
   z-index: 2;
 }
 
-section.our-collection .item-collection .item-card {
+section.our-collection .item-collection .hover-container {
+  display: none;
+}
+
+section.our-collection .item-card {
   cursor: pointer;
   color: inherit;
   text-decoration: unset;
 }
 
-section.our-collection .item-collection .card-content {
+section.our-collection .card-content {
   width: 272px;
   padding: 0 25px 25px 25px;
 }
 
-section.our-collection .item-collection h2 {
+section.our-collection h2 {
   font-family: Poppins;
   font-size: 19.5px;
   font-weight: 600;
@@ -259,7 +263,7 @@ section.our-collection .item-collection h2 {
   margin: 0;
 }
 
-section.our-collection .item-collection p.item-description {
+section.our-collection p.item-description {
   font-family: Poppins;
   font-size: 14px;
   font-weight: normal;
@@ -272,7 +276,107 @@ section.our-collection .item-collection p.item-description {
   margin: 0;
 }
 
-section.our-collection .item-collection p.price {
+section.our-collection p.price {
+  font-family: Poppins;
+  font-size: 27.5px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.73;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+}
+
+div.item-collection:hover {
+  width: 302px;
+  height: 430px;
+  position: relative;
+  background-color: #ffffff;
+  text-align: left;
+  margin: 0px;
+}
+
+div.item-collection:hover img {
+  padding-left: 16px;
+}
+
+div.item-collection:hover .new-chair {
+  position: absolute;
+  padding-left: 0;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+div.item-collection:hover .hover-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  opacity: 0.75;
+  background-color: #f2cd7a;
+  box-shadow: 0 0 38px 0 rgba(185, 174, 150, 0.73);
+  z-index: 4;
+  width: 302px;
+  height: 430px;
+  top: -7px;
+}
+
+div.item-collection:hover .hover-container .buttons-hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 185px;
+  height: 57px;
+  opacity: 1.11;
+  background-color: #343d4c;
+  border-radius: 45px;
+  margin-top: 26px;
+}
+
+div.item-collection:hover .hover-container .buttons-hover button {
+  background-color: #343d4c;
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin-top: 38px;
+}
+
+div.item-collection:hover .card-content {
+  width: 272px;
+  padding: 0 25px 25px 25px;
+}
+
+div.item-collection:hover h2 {
+  font-family: Poppins;
+  font-size: 19.5px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+div.item-collection:hover p.item-description {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6d6d6d;
+  margin: 0;
+}
+
+div.item-collection:hover p.price {
   font-family: Poppins;
   font-size: 27.5px;
   font-weight: 600;
