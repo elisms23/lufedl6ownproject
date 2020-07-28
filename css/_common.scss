@@ -45,7 +45,6 @@ body {
     .our-projects-samples {
         width: 100%;
         height: 1000px;
-        background-color: coral;
         display: flex;
         flex-flow: row nowrap;
 
@@ -150,7 +149,7 @@ body {
 
             img {
                 width: 100%;
-                height: 270px;
+                height: auto;
             }
 
             .blog-post-text {
@@ -251,7 +250,42 @@ footer {
 
             p {
                 font-size: 14px;
+                line-height: 24px;
                 opacity: 0.5;
+            }
+            
+        }
+
+        #newsletter {
+
+            form {
+                margin-top: 14px;
+                padding: 15px;
+                width: 327px;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                input, button {
+                    padding: 0;
+                    background-color: inherit;
+                    border: none;
+                    font-size: 15px;
+                    line-height: 15px;
+                    font-family: 'Poppins', sans-serif;
+                }
+                input {
+                    width: 270px;
+/* в Firefox текст placeholder'а слишком темный, надо что-то сделать */
+                }
+                button {
+                    svg {
+                        width: 18px;
+                        height: 12px;
+                        opacity: 0.5;
+                    }
+                }
+            }
+        
+            p {
+                line-height: 18px;
             }
         }
         
@@ -263,11 +297,13 @@ footer {
             padding: 35px 0px;
 
             a{  
-                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 width: 42px;
                 height: 42px;
                 padding: 1px;
-                border: 1px solid #fff;
+                border: 1px solid rgba(255, 255, 255, 0.5);
                 border-radius: 50%;
                 img {
                     height: 30px;
@@ -277,6 +313,3 @@ footer {
         }
     }
 }
-/* разная толщина линий подзаголовков FROM
-OUR BLOG и OUR PROJECTS; иконки соцсетей;
-можно ли сделать инпут без формы */

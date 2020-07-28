@@ -37,7 +37,6 @@ body {
   .our-projects .our-projects-samples {
     width: 100%;
     height: 1000px;
-    background-color: coral;
     display: flex;
     flex-flow: row nowrap; }
     .our-projects .our-projects-samples .project .project-dark-layer {
@@ -114,7 +113,7 @@ body {
       background-color: #fff; }
       .from-our-blog .from-our-blog-posts .blog-post img {
         width: 100%;
-        height: 270px; }
+        height: auto; }
       .from-our-blog .from-our-blog-posts .blog-post .blog-post-text {
         padding: 25px 32px 25px 25px; }
         .from-our-blog .from-our-blog-posts .blog-post .blog-post-text h3 {
@@ -186,25 +185,45 @@ footer {
         line-height: 24px; }
       footer .footer-info .footer-part p {
         font-size: 14px;
+        line-height: 24px;
         opacity: 0.5; }
+    footer .footer-info #newsletter form {
+      margin-top: 14px;
+      padding: 15px;
+      width: 327px;
+      border: 1px solid rgba(255, 255, 255, 0.5); }
+      footer .footer-info #newsletter form input, footer .footer-info #newsletter form button {
+        padding: 0;
+        background-color: inherit;
+        border: none;
+        font-size: 15px;
+        line-height: 15px;
+        font-family: 'Poppins', sans-serif; }
+      footer .footer-info #newsletter form input {
+        width: 270px;
+        /* в Firefox текст placeholder'а слишком темный, надо что-то сделать */ }
+      footer .footer-info #newsletter form button svg {
+        width: 18px;
+        height: 12px;
+        opacity: 0.5; }
+    footer .footer-info #newsletter p {
+      line-height: 18px; }
     footer .footer-info .social-media {
       width: 271px;
       display: flex;
       justify-content: space-between;
       padding: 35px 0px; }
       footer .footer-info .social-media a {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 42px;
         height: 42px;
         padding: 1px;
-        border: 1px solid #fff;
+        border: 1px solid rgba(255, 255, 255, 0.5);
         border-radius: 50%; }
         footer .footer-info .social-media a img {
           height: 30px;
           width: 30px; }
-
-/* разная толщина линий подзаголовков FROM
-OUR BLOG и OUR PROJECTS; иконки соцсетей;
-можно ли сделать инпут без формы */
 
 /*# sourceMappingURL=main-page.css.map */
