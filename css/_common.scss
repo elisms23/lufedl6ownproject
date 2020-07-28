@@ -66,8 +66,13 @@ body {
                 letter-spacing: 3px;
             }
 
-            p {
+            p { display: block;
+                padding: 44px;
+                margin: 0px 500px 0px 0px;
                 transform: rotate(-90deg);
+                font-size: 20px;
+                letter-spacing: 7.96px;
+                font-weight: 600;
             }
         }
 
@@ -199,21 +204,79 @@ footer {
         display: flex;
         justify-content: space-evenly;
         color: #ffce76;
+        padding: 63px 0px;
+
+        div {
+            width: 372px;
+
+            svg {
+                position: absolute;
+                height: 108px;
+                width: 4px;
+            }
+
+            h3 {
+                margin: 12px 21px;
+                color: #ffce76;
+                font-size: 25px;
+                line-height: 25px;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 1.65px;
+            }
+
+            p {
+                margin: 12px 21px;
+                color: #ffffff;
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
     }
-    
+
     .footer-info {
         display: flex;
         justify-content: space-evenly;
-        color: #ffce76;
+
+        .footer-part {
+            width: 372px;
+            color: #fff;
+
+            h3 {
+                font-size: 30px;
+                font-weight: 600;
+                margin: 0;
+                line-height: 24px;
+            }
+
+            p {
+                font-size: 14px;
+                opacity: 0.5;
+            }
+        }
+        
 
         .social-media {
+            width: 271px;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
+            padding: 35px 0px;
 
-            img {
-                height: 42px;
+            a{  
+                text-align: center;
                 width: 42px;
+                height: 42px;
+                padding: 1px;
+                border: 1px solid #fff;
+                border-radius: 50%;
+                img {
+                    height: 30px;
+                    width: 30px;
+                }
             }
         }
     }
 }
+/* разная толщина линий подзаголовков FROM
+OUR BLOG и OUR PROJECTS; иконки соцсетей;
+можно ли сделать инпут без формы */

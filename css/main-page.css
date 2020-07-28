@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box; }
 
@@ -52,7 +53,13 @@ body {
         font-size: 30px;
         letter-spacing: 3px; }
       .our-projects .our-projects-samples .project p {
-        transform: rotate(-90deg); }
+        display: block;
+        padding: 44px;
+        margin: 0px 500px 0px 0px;
+        transform: rotate(-90deg);
+        font-size: 20px;
+        letter-spacing: 7.96px;
+        font-weight: 600; }
     .our-projects .our-projects-samples #project-1 {
       width: 25%;
       background-image: url("../img/modern-living-room-1.png");
@@ -145,16 +152,59 @@ footer {
   footer .contacts {
     display: flex;
     justify-content: space-evenly;
-    color: #ffce76; }
+    color: #ffce76;
+    padding: 63px 0px; }
+    footer .contacts div {
+      width: 372px; }
+      footer .contacts div svg {
+        position: absolute;
+        height: 108px;
+        width: 4px; }
+      footer .contacts div h3 {
+        margin: 12px 21px;
+        color: #ffce76;
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1.65px; }
+      footer .contacts div p {
+        margin: 12px 21px;
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 24px; }
   footer .footer-info {
     display: flex;
-    justify-content: space-evenly;
-    color: #ffce76; }
+    justify-content: space-evenly; }
+    footer .footer-info .footer-part {
+      width: 372px;
+      color: #fff; }
+      footer .footer-info .footer-part h3 {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 0;
+        line-height: 24px; }
+      footer .footer-info .footer-part p {
+        font-size: 14px;
+        opacity: 0.5; }
     footer .footer-info .social-media {
+      width: 271px;
       display: flex;
-      justify-content: space-evenly; }
-      footer .footer-info .social-media img {
+      justify-content: space-between;
+      padding: 35px 0px; }
+      footer .footer-info .social-media a {
+        text-align: center;
+        width: 42px;
         height: 42px;
-        width: 42px; }
+        padding: 1px;
+        border: 1px solid #fff;
+        border-radius: 50%; }
+        footer .footer-info .social-media a img {
+          height: 30px;
+          width: 30px; }
+
+/* разная толщина линий подзаголовков FROM
+OUR BLOG и OUR PROJECTS; иконки соцсетей;
+можно ли сделать инпут без формы */
 
 /*# sourceMappingURL=main-page.css.map */
