@@ -1,1 +1,316 @@
 @import 'common';
+
+/* this part was added just to remember there are blocks above my part */
+.our-collection {
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+}
+/* now I remember :) My part starts below */
+
+.our-projects {
+    width: 100%;
+    background-color: aqua;
+
+    .our-projects-title {
+        width: 100%;
+        padding: 70px;
+        background-color: #fff;
+        text-align: center;
+
+        h2 {
+            text-transform: uppercase;
+            font-size: 40px;
+            letter-spacing: 4px;
+            color: #181817;
+            line-height: 19px;
+            margin-bottom: 16px;
+        }
+
+        p > svg {
+            height: 1em;
+        }
+    }
+
+    .our-projects-samples {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-flow: row nowrap;
+
+        svg {
+
+            color: red;
+            width: 12px;
+            height: 20px;
+        }
+
+        .project .project-dark-layer {
+            width: 25%;
+            height: 1000px;
+            position: absolute;
+            background-color: #404040;
+            opacity: 0.4;
+        }
+
+        .project {
+            text-transform: uppercase;
+            color: #fff;
+
+            h3 {
+                padding:57px 61px;
+                margin: 0;
+                font-size: 30px;
+                letter-spacing: 3px;
+            }
+
+            p { 
+                padding: 44px;
+                margin: 0px 500px 0px 0px;
+                transform: rotate(-90deg);
+                font-size: 20px;
+                letter-spacing: 7.96px;
+                font-weight: 600;
+                text-align: left;
+            }
+        }
+
+        #project-1 {
+            width: 25%;
+            background-image: url("../img/modern-living-room-1.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #project-2 {
+            width: 25%;
+            background-image: url("../img/modern-living-room-2.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #project-3 {
+            width: 25%;
+            background-image: url("../img/modern-living-room-3.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #project-4 {
+            width: 25%;
+            background-image: url("../img/modern-living-room-4.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .project-test {
+            visibility: hidden;
+        }
+    }
+}
+
+.from-our-blog {
+    width: 100%;
+    height: 860px;
+    background-color: #f9fafc;
+
+    .from-our-blog-title {
+        padding: 70px;
+        width: 100%;
+        text-align: center;
+
+        h2 {
+            text-transform: uppercase;
+            font-size: 40px;
+            letter-spacing: 4px;
+            color: #181817;
+            line-height: 19px;
+            margin-bottom: 16px;
+        }
+
+        p > svg {
+            height: 1em;
+        }
+    }
+
+    .from-our-blog-posts {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 115px;
+
+        .blog-post {
+            width: 372px;
+            height: 515px;
+            background-color: #fff;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            .blog-post-text {
+                padding: 25px 32px 25px 25px;
+
+                h3 {
+                    padding-left: 2px;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    color: #000;
+                    margin: 0;
+                }
+
+                p {
+                    color: #31302d;
+                    font-size: 14px;
+                    opacity: 0.7;
+                }
+
+                a { 
+                    display: flex;
+                    align-items: center;         
+                    text-decoration: none;
+                    width: 160px;
+                    height: 50px;
+                    padding: 20px;
+                    background-color: #ffce76;
+                    color: #000;
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: 1.4px;
+
+                    svg {
+                        width: 1em;
+                        height: 1em;
+                        margin-left: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 440px;
+    background-color: #181817;
+
+    .contacts {
+        display: flex;
+        justify-content: space-evenly;
+        color: #ffce76;
+        padding: 63px 0px;
+
+        div {
+            width: 372px;
+
+            svg {
+                position: absolute;
+                height: 108px;
+                width: 4px;
+            }
+
+            h3 {
+                margin: 12px 21px;
+                color: #ffce76;
+                font-size: 25px;
+                line-height: 25px;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 1.65px;
+            }
+
+            p {
+                margin: 12px 21px;
+                color: #ffffff;
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .footer-info {
+        display: flex;
+        justify-content: space-evenly;
+
+        .footer-part {
+            width: 372px;
+            color: #fff;
+
+            h3 {
+                font-size: 30px;
+                font-weight: 600;
+                margin: 0;
+                line-height: 24px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 24px;
+                opacity: 0.5;
+            }
+            
+        }
+
+        #newsletter {
+
+            form {
+                margin-top: 14px;
+                padding: 15px;
+                width: 327px;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                input, button {
+                    padding: 0;
+                    background-color: inherit;
+                    border: none;
+                    font-size: 15px;
+                    line-height: 15px;
+                    font-family: 'Poppins', sans-serif;
+                }
+                input {
+                    width: 270px;
+                    color: #fff;
+                    opacity: 0.5;
+                }
+                button {
+                    svg {
+                        width: 18px;
+                        height: 12px;
+                        opacity: 0.5;
+                    }
+                }
+            }
+        
+            p {
+                line-height: 18px;
+            }
+        }
+        
+
+        .social-media {
+            width: 271px;
+            display: flex;
+            justify-content: space-between;
+            padding: 35px 0px;
+
+            a{  
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 42px;
+                height: 42px;
+                padding: 1px;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                border-radius: 50%;
+                img {
+                    height: 30px;
+                    width: 30px;
+                }
+            }
+        }
+    }
+}
