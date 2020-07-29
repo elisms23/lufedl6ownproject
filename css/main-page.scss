@@ -39,23 +39,25 @@
         flex-flow: row nowrap;
 
         svg {
-
+            position: absolute;
             color: red;
             width: 12px;
             height: 20px;
-        }
-
-        .project .project-dark-layer {
-            width: 25%;
-            height: 1000px;
-            position: absolute;
-            background-color: #404040;
-            opacity: 0.4;
+            z-index: 1;
         }
 
         .project {
             text-transform: uppercase;
             color: #fff;
+            width: 25%;
+
+            .project-dark-layer {
+                width: 25%;
+                height: 1000px;
+                position: absolute;
+                background-color: #404040;
+                opacity: 0.4;
+            }
 
             h3 {
                 padding:57px 61px;
@@ -65,13 +67,14 @@
             }
 
             p { 
+                margin: 0;
                 padding: 44px;
-                margin: 0px 500px 0px 0px;
                 transform: rotate(-90deg);
                 font-size: 20px;
                 letter-spacing: 7.96px;
                 font-weight: 600;
-                text-align: left;
+                position: relative;
+                top: 400px;
             }
         }
 
