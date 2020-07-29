@@ -48,6 +48,13 @@ body {
         display: flex;
         flex-flow: row nowrap;
 
+        svg {
+
+            color: red;
+            width: 12px;
+            height: 20px;
+        }
+
         .project .project-dark-layer {
             width: 25%;
             height: 1000px;
@@ -61,17 +68,20 @@ body {
             color: #fff;
 
             h3 {
+                padding:57px 61px;
+                margin: 0;
                 font-size: 30px;
                 letter-spacing: 3px;
             }
 
-            p { display: block;
+            p { 
                 padding: 44px;
                 margin: 0px 500px 0px 0px;
                 transform: rotate(-90deg);
                 font-size: 20px;
                 letter-spacing: 7.96px;
                 font-weight: 600;
+                text-align: left;
             }
         }
 
@@ -273,7 +283,8 @@ footer {
                 }
                 input {
                     width: 270px;
-/* в Firefox текст placeholder'а слишком темный, надо что-то сделать */
+                    color: #fff;
+                    opacity: 0.5;
                 }
                 button {
                     svg {
