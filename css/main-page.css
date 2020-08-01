@@ -6,234 +6,226 @@ body {
   font-family: 'Poppins', sans-serif; }
 
 .container {
-  max-width: 1600px;
   margin: auto; }
 
-/* this part was added just to remember there are blocks above my part */
-.our-collection {
-  width: 100%;
-  height: 200px;
-  background-color: yellow; }
-
-/* now I remember :) My part starts below */
-.our-projects {
-  width: 100%;
-  background-color: aqua; }
-  .our-projects .our-projects-title {
+.our-project {
+  width: 100%; }
+  .our-project .container {
     width: 100%;
-    padding: 70px;
-    background-color: #fff;
-    text-align: center; }
-    .our-projects .our-projects-title h2 {
-      text-transform: uppercase;
-      font-size: 40px;
-      letter-spacing: 4px;
-      color: #181817;
-      line-height: 19px;
-      margin-bottom: 16px; }
-    .our-projects .our-projects-title p > svg {
-      height: 1em; }
-  .our-projects .our-projects-samples {
-    width: 100%;
-    height: 1000px;
-    display: flex;
-    flex-flow: row nowrap; }
-    .our-projects .our-projects-samples svg {
-      position: absolute;
-      color: red;
-      width: 12px;
-      height: 20px;
-      z-index: 1; }
-    .our-projects .our-projects-samples .project {
-      text-transform: uppercase;
-      color: #fff;
-      width: 25%; }
-      .our-projects .our-projects-samples .project .project-dark-layer {
+    margin: 0; }
+    .our-project .container .our-projects-title {
+      width: 100%;
+      padding: 70px;
+      background-color: #fff;
+      text-align: center; }
+      .our-project .container .our-projects-title h2 {
+        text-transform: uppercase;
+        font-size: 40px;
+        letter-spacing: 4px;
+        color: #181817;
+        line-height: 19px;
+        margin-bottom: 16px; }
+      .our-project .container .our-projects-title p > svg {
+        height: 1em; }
+    .our-project .container .our-projects-samples {
+      width: 100%;
+      height: 1000px;
+      display: flex;
+      flex-flow: row nowrap; }
+      .our-project .container .our-projects-samples svg {
+        position: absolute; }
+      .our-project .container .our-projects-samples .project {
+        text-transform: uppercase;
+        color: #fff;
         width: 25%;
-        height: 1000px;
-        position: absolute;
-        background-color: #404040;
-        opacity: 0.4; }
-      .our-projects .our-projects-samples .project h3 {
-        padding: 57px 61px;
-        margin: 0;
-        font-size: 30px;
-        letter-spacing: 3px; }
-      .our-projects .our-projects-samples .project p {
-        margin: 0;
-        padding: 44px;
-        transform: rotate(-90deg);
-        font-size: 20px;
-        letter-spacing: 7.96px;
-        font-weight: 600;
-        position: relative;
-        top: 400px; }
-    .our-projects .our-projects-samples #project-1 {
-      width: 25%;
-      background-image: url("../img/modern-living-room-1.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .our-projects .our-projects-samples #project-2 {
-      width: 25%;
-      background-image: url("../img/modern-living-room-2.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .our-projects .our-projects-samples #project-3 {
-      width: 25%;
-      background-image: url("../img/modern-living-room-3.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .our-projects .our-projects-samples #project-4 {
-      width: 25%;
-      background-image: url("../img/modern-living-room-4.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; }
-    .our-projects .our-projects-samples .project-test {
-      visibility: hidden; }
+        margin: 0; }
+        .our-project .container .our-projects-samples .project .project-dark-layer {
+          width: 100%;
+          height: 1000px;
+          background-color: #404040;
+          opacity: 0.4; }
+        .our-project .container .our-projects-samples .project h3 {
+          padding: 57px 61px;
+          margin: 0;
+          font-size: 30px;
+          letter-spacing: 3px;
+          position: absolute; }
+        .our-project .container .our-projects-samples .project p {
+          margin: 0;
+          padding: 44px;
+          transform: rotate(-90deg);
+          font-size: 20px;
+          letter-spacing: 7.96px;
+          font-weight: 600;
+          position: absolute; }
+      .our-project .container .our-projects-samples #project-1 {
+        background-image: url("../img/modern-living-room-1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .our-project .container .our-projects-samples #project-2 {
+        background-image: url("../img/modern-living-room-2.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .our-project .container .our-projects-samples #project-3 {
+        background-image: url("../img/modern-living-room-3.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .our-project .container .our-projects-samples #project-4 {
+        background-image: url("../img/modern-living-room-4.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .our-project .container .our-projects-samples .project-test {
+        visibility: hidden; }
 
 .from-our-blog {
   width: 100%;
   height: 860px;
   background-color: #f9fafc; }
-  .from-our-blog .from-our-blog-title {
-    padding: 70px;
+  .from-our-blog .container {
     width: 100%;
-    text-align: center; }
-    .from-our-blog .from-our-blog-title h2 {
-      text-transform: uppercase;
-      font-size: 40px;
-      letter-spacing: 4px;
-      color: #181817;
-      line-height: 19px;
-      margin-bottom: 16px; }
-    .from-our-blog .from-our-blog-title p > svg {
-      height: 1em; }
-  .from-our-blog .from-our-blog-posts {
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 115px; }
-    .from-our-blog .from-our-blog-posts .blog-post {
-      width: 372px;
-      height: 515px;
-      background-color: #fff; }
-      .from-our-blog .from-our-blog-posts .blog-post img {
-        width: 100%;
-        height: auto; }
-      .from-our-blog .from-our-blog-posts .blog-post .blog-post-text {
-        padding: 25px 32px 25px 25px; }
-        .from-our-blog .from-our-blog-posts .blog-post .blog-post-text h3 {
-          padding-left: 2px;
-          font-size: 20px;
-          text-transform: uppercase;
-          color: #000;
-          margin: 0; }
-        .from-our-blog .from-our-blog-posts .blog-post .blog-post-text p {
-          color: #31302d;
-          font-size: 14px;
-          opacity: 0.7; }
-        .from-our-blog .from-our-blog-posts .blog-post .blog-post-text a {
-          display: flex;
-          align-items: center;
-          text-decoration: none;
-          width: 160px;
-          height: 50px;
-          padding: 20px;
-          background-color: #ffce76;
-          color: #000;
-          font-size: 14px;
-          font-weight: 600;
-          text-transform: uppercase;
-          letter-spacing: 1.4px; }
-          .from-our-blog .from-our-blog-posts .blog-post .blog-post-text a svg {
-            width: 1em;
-            height: 1em;
-            margin-left: 13px; }
+    height: 860px; }
+    .from-our-blog .container .from-our-blog-title {
+      padding: 70px;
+      width: 100%;
+      text-align: center; }
+      .from-our-blog .container .from-our-blog-title h2 {
+        text-transform: uppercase;
+        font-size: 40px;
+        letter-spacing: 4px;
+        color: #181817;
+        line-height: 19px;
+        margin-bottom: 16px; }
+      .from-our-blog .container .from-our-blog-title p > svg {
+        height: 1em; }
+    .from-our-blog .container .from-our-blog-posts {
+      display: flex;
+      justify-content: space-evenly;
+      padding-bottom: 115px; }
+      .from-our-blog .container .from-our-blog-posts .blog-post {
+        width: 372px;
+        height: 515px;
+        background-color: #fff; }
+        .from-our-blog .container .from-our-blog-posts .blog-post img {
+          width: 100%;
+          height: auto; }
+        .from-our-blog .container .from-our-blog-posts .blog-post .blog-post-text {
+          padding: 25px 32px 25px 25px; }
+          .from-our-blog .container .from-our-blog-posts .blog-post .blog-post-text h3 {
+            padding-left: 2px;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: #000;
+            margin: 0; }
+          .from-our-blog .container .from-our-blog-posts .blog-post .blog-post-text p {
+            color: #31302d;
+            font-size: 14px;
+            opacity: 0.7; }
+          .from-our-blog .container .from-our-blog-posts .blog-post .blog-post-text a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            width: 160px;
+            height: 50px;
+            padding: 20px;
+            background-color: #ffce76;
+            color: #000;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.4px; }
+            .from-our-blog .container .from-our-blog-posts .blog-post .blog-post-text a svg {
+              width: 1em;
+              height: 1em;
+              margin-left: 13px; }
 
 footer {
   width: 100%;
   height: 440px;
   background-color: #181817; }
-  footer .contacts {
-    display: flex;
-    justify-content: space-evenly;
-    color: #ffce76;
-    padding: 63px 0px; }
-    footer .contacts div {
-      width: 372px; }
-      footer .contacts div svg {
-        position: absolute;
-        height: 108px;
-        width: 4px; }
-      footer .contacts div h3 {
-        margin: 12px 21px;
-        color: #ffce76;
-        font-size: 25px;
-        line-height: 25px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 1.65px; }
-      footer .contacts div p {
-        margin: 12px 21px;
-        color: #ffffff;
-        font-size: 14px;
-        line-height: 24px; }
-  footer .footer-info {
-    display: flex;
-    justify-content: space-evenly; }
-    footer .footer-info .footer-part {
-      width: 372px;
-      color: #fff; }
-      footer .footer-info .footer-part h3 {
-        font-size: 30px;
-        font-weight: 600;
-        margin: 0;
-        line-height: 24px; }
-      footer .footer-info .footer-part p {
-        font-size: 14px;
-        line-height: 24px;
-        opacity: 0.5; }
-    footer .footer-info #newsletter form {
-      margin-top: 14px;
-      padding: 15px;
-      width: 327px;
-      border: 1px solid rgba(255, 255, 255, 0.5); }
-      footer .footer-info #newsletter form input, footer .footer-info #newsletter form button {
-        padding: 0;
-        background-color: inherit;
-        border: none;
-        font-size: 15px;
-        line-height: 15px;
-        font-family: 'Poppins', sans-serif; }
-      footer .footer-info #newsletter form input {
-        width: 270px;
-        color: #fff;
-        opacity: 0.5; }
-      footer .footer-info #newsletter form button svg {
-        width: 18px;
-        height: 12px;
-        opacity: 0.5; }
-    footer .footer-info #newsletter p {
-      line-height: 18px; }
-    footer .footer-info .social-media {
-      width: 271px;
+  footer .container {
+    width: 100%;
+    height: 440px; }
+    footer .container .contacts {
       display: flex;
-      justify-content: space-between;
-      padding: 35px 0px; }
-      footer .footer-info .social-media a {
+      justify-content: space-evenly;
+      color: #ffce76;
+      padding: 63px 0px; }
+      footer .container .contacts div {
+        width: 372px; }
+        footer .container .contacts div svg {
+          position: absolute;
+          height: 108px;
+          width: 4px; }
+        footer .container .contacts div h3 {
+          margin: 12px 21px;
+          color: #ffce76;
+          font-size: 25px;
+          line-height: 25px;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 1.65px; }
+        footer .container .contacts div p {
+          margin: 12px 21px;
+          color: #ffffff;
+          font-size: 14px;
+          line-height: 24px; }
+    footer .container .footer-info {
+      display: flex;
+      justify-content: space-evenly; }
+      footer .container .footer-info .footer-part {
+        width: 372px;
+        color: #fff; }
+        footer .container .footer-info .footer-part h3 {
+          font-size: 30px;
+          font-weight: 600;
+          margin: 0;
+          line-height: 24px; }
+        footer .container .footer-info .footer-part p {
+          font-size: 14px;
+          line-height: 24px;
+          opacity: 0.5; }
+      footer .container .footer-info #newsletter form {
+        margin-top: 14px;
+        padding: 15px;
+        width: 327px;
+        border: 1px solid rgba(255, 255, 255, 0.5); }
+        footer .container .footer-info #newsletter form input, footer .container .footer-info #newsletter form button {
+          padding: 0;
+          background-color: inherit;
+          border: none;
+          font-size: 15px;
+          line-height: 15px;
+          font-family: 'Poppins', sans-serif; }
+        footer .container .footer-info #newsletter form input {
+          width: 270px;
+          color: #fff;
+          opacity: 0.5; }
+        footer .container .footer-info #newsletter form button svg {
+          width: 18px;
+          height: 12px;
+          opacity: 0.5; }
+      footer .container .footer-info #newsletter p {
+        line-height: 18px; }
+      footer .container .footer-info .social-media {
+        width: 271px;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 42px;
-        height: 42px;
-        padding: 1px;
-        border: 1px solid rgba(255, 255, 255, 0.5);
-        border-radius: 50%; }
-        footer .footer-info .social-media a img {
-          height: 30px;
-          width: 30px; }
+        justify-content: space-between;
+        padding: 35px 0px; }
+        footer .container .footer-info .social-media a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 42px;
+          height: 42px;
+          padding: 1px;
+          border: 1px solid rgba(255, 255, 255, 0.5);
+          border-radius: 50%; }
+          footer .container .footer-info .social-media a img {
+            height: 30px;
+            width: 30px; }
 
 /*# sourceMappingURL=main-page.css.map */
