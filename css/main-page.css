@@ -21,17 +21,33 @@ button {
 }
 
 section.examples {
-  display: flex;
+  display: grid;
   width: 100%;
+  grid-template-areas: "patio-example plane-example design-example design-example"  "patio-example ceramics-example ceramics-example apples-example";
+}
+
+section.examples #patio-example {
+  grid-area: patio-example;
+}
+
+section.examples #plane-example {
+  grid-area: plane-example;
+}
+
+section.examples #design-example {
+  grid-area: design-example;
+}
+
+section.examples #ceramics-example {
+  grid-area: ceramics-example;
+}
+
+section.examples #apples-example {
+  grid-area: apples-example;
 }
 
 section.examples img {
   height: 100%;
-}
-
-section.examples .another-examples {
-  flex-wrap: wrap;
-  margin: 0;
 }
 
 section.examples .patio-example {
