@@ -1,14 +1,28 @@
 @import 'common';
 section.examples {
-    display: flex;
+    display: grid;
     width: 100%;
+    grid-template-areas: "patio-example plane-example design-example design-example" 
+    "patio-example ceramics-example ceramics-example apples-example";
+    #patio-example {
+        grid-area: patio-example;
+    }
+    #plane-example {
+        grid-area: plane-example;
+    }
+    #design-example {
+        grid-area: design-example;
+    }
+    #ceramics-example {
+        grid-area: ceramics-example;
+    }
+    #apples-example {
+        grid-area: apples-example;
+    }
     img {
         height: 100%;
     }
-    .another-examples {
-        flex-wrap: wrap;
-        margin: 0;
-    }
+
     .patio-example {
         position: relative;
         .example-description {

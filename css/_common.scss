@@ -5,7 +5,13 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+button {
+    cursor: pointer;
+}
 .container {
-    max-width: 1600px;
-    margin: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.flex-container {
+    display: flex;
 }
