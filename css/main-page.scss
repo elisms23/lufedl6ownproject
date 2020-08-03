@@ -56,8 +56,12 @@ section.examples {
             }
         }
     }
+    .plane-example {
+        height: 348px;
+    }
     .design-example {
         position: relative;
+        height: 348px;
         .example-description {
             position: absolute;
             top: 51px;
