@@ -489,22 +489,20 @@ section.our-designers {
         height: 1000px;
         position: absolute;
         background-color: #404040;
-        opacity: 0.5; }
-      .our-project .container .our-projects-samples svg {
-        position: absolute;
-        width: 5em;
-        height: 5em;
-        margin: 40px;
-        margin-top: 470px;
-        padding: 30px;
-        border: 4px solid rgba(255, 255, 255, 0.1);
-        background-color: rgba(0, 0, 0, 0.05);
-        border-radius: 50%; }
-      .our-project .container .our-projects-samples svg:last-of-type {
-        transform: none;
-        margin-left: 500px; }
-      .our-project .container .our-projects-samples svg:hover {
-        cursor: pointer; }
+        opacity: 0.5;
+        display: flex;
+        justify-content: space-between; }
+        .our-project .container .our-projects-samples .project-dark-layer svg {
+          width: 5em;
+          height: 5em;
+          margin: 40px;
+          margin-top: 470px;
+          padding: 30px;
+          border: 4px solid rgba(255, 255, 255, 0.1);
+          background-color: rgba(0, 0, 0, 0.05);
+          border-radius: 50%; }
+        .our-project .container .our-projects-samples .project-dark-layer svg:hover {
+          cursor: pointer; }
       .our-project .container .our-projects-samples .project {
         text-transform: uppercase;
         color: #fff;

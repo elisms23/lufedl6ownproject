@@ -557,27 +557,23 @@ section.our-designers {
                 position: absolute;
                 background-color: #404040;
                 opacity: 0.5;
-            }
+                display: flex;
+                justify-content: space-between;
 
-            svg {
-                position: absolute;
-                width: 5em;
-                height: 5em;
-                margin: 40px;
-                margin-top: 470px;
-                padding: 30px;
-                border: 4px solid rgba(255, 255, 255, 0.1);
-                background-color: rgba(0, 0, 0, 0.05);
-                border-radius: 50%;
-            }
-
-            svg:last-of-type {
-                transform: none;
-                margin-left: 500px;
-            }
-
-            svg:hover {
-                cursor: pointer;
+                svg {
+                    width: 5em;
+                    height: 5em;
+                    margin: 40px;
+                    margin-top: 470px;
+                    padding: 30px;
+                    border: 4px solid rgba(255, 255, 255, 0.1);
+                    background-color: rgba(0, 0, 0, 0.05);
+                    border-radius: 50%;
+                }
+    
+                svg:hover {
+                    cursor: pointer;
+                }
             }
 
             .project {
