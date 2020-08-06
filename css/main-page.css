@@ -159,27 +159,44 @@ nav {
         height: 1em; }
     .why-choose-us .container .why-choose-us-content {
       margin: 0;
-      padding: 0px 10vw 150px;
+      padding: 0px 10vw 95px;
       display: flex;
       flex-flow: row nowrap;
-      justify-content: space-evenly; }
-      .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features span {
-        color: #ffce76;
-        text-transform: uppercase;
-        font-size: 20px;
-        font-weight: 600;
-        letter-spacing: 2px;
-        text-align: right; }
-      .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features p {
-        display: block;
-        color: #fff;
-        margin: 0;
-        width: 25vw;
-        text-align: left; }
-      .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features img {
-        position: absolute; }
-      .why-choose-us .container .why-choose-us-content .why-choose-us-text:last-of-type .why-choose-us-features span {
-        text-align: left; }
+      justify-content: center; }
+      .why-choose-us .container .why-choose-us-content .why-choose-us-armchair {
+        position: relative;
+        top: -20px;
+        left: 45px; }
+      .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features {
+        text-align: right;
+        padding-right: 65px;
+        height: 180px; }
+        .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features span {
+          color: #ffce76;
+          text-transform: uppercase;
+          font-size: 20px;
+          font-weight: 600;
+          letter-spacing: 2px; }
+        .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features p {
+          display: block;
+          color: #fff;
+          margin: 0;
+          width: 17vw;
+          padding: 23px 0; }
+        .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features img {
+          position: relative;
+          left: 130px;
+          bottom: 206px;
+          margin: 20px; }
+      .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features:last-of-type img {
+        left: 150px; }
+      .why-choose-us .container .why-choose-us-content .why-choose-us-text:last-of-type .why-choose-us-features {
+        text-align: left;
+        padding-left: 100px;
+        position: relative;
+        left: 45px; }
+        .why-choose-us .container .why-choose-us-content .why-choose-us-text:last-of-type .why-choose-us-features img {
+          left: -130px; }
 
 section.examples {
   display: grid;
