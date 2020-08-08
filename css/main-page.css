@@ -163,40 +163,29 @@ nav {
       display: flex;
       flex-flow: row nowrap;
       justify-content: center; }
-      .why-choose-us .container .why-choose-us-content .why-choose-us-armchair {
-        position: relative;
-        top: -20px;
-        left: 45px; }
       .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features {
+        display: flex;
+        flex-flow: row nowrap;
         text-align: right;
-        padding-right: 65px;
         height: 180px; }
-        .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features span {
+        .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features .text-part span {
           color: #ffce76;
           text-transform: uppercase;
           font-size: 20px;
           font-weight: 600;
           letter-spacing: 2px; }
-        .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features p {
+        .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features .text-part p {
           display: block;
           color: #fff;
           margin: 0;
-          width: 17vw;
+          width: 18vw;
           padding: 23px 0; }
-        .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features img {
-          position: relative;
-          left: 130px;
-          bottom: 206px;
-          margin: 20px; }
-      .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features:last-of-type img {
-        left: 150px; }
+        .why-choose-us .container .why-choose-us-content .why-choose-us-text .why-choose-us-features .icon {
+          width: 150px;
+          height: 150px;
+          padding: 10px 36px; }
       .why-choose-us .container .why-choose-us-content .why-choose-us-text:last-of-type .why-choose-us-features {
-        text-align: left;
-        padding-left: 100px;
-        position: relative;
-        left: 45px; }
-        .why-choose-us .container .why-choose-us-content .why-choose-us-text:last-of-type .why-choose-us-features img {
-          left: -130px; }
+        text-align: left; }
 
 section.examples {
   display: grid;

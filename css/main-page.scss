@@ -189,58 +189,41 @@ word-spacing: 35px;
             flex-flow: row nowrap;
             justify-content: center;
 
-            .why-choose-us-armchair {
-                position: relative;
-                top: -20px;
-                left: 45px;
-            }
-
             .why-choose-us-text {
 
                 .why-choose-us-features {
+                    display: flex;
+                    flex-flow: row nowrap;
                     text-align: right;
-                    padding-right: 65px;
                     height: 180px;
-                    span {
-                        color: #ffce76;
-                        text-transform: uppercase;
-                        font-size: 20px;
-                        font-weight: 600;
-                        letter-spacing: 2px;
+
+                    .text-part {
+                        span {
+                            color: #ffce76;
+                            text-transform: uppercase;
+                            font-size: 20px;
+                            font-weight: 600;
+                            letter-spacing: 2px;
+                        }
+                        p {
+                            display: block;
+                            color: #fff;
+                            margin: 0;
+                            width: 18vw;
+                            padding: 23px 0;
+                        }
                     }
-                    p {
-                        display: block;
-                        color: #fff;
-                        margin: 0;
-                        width: 17vw;
-                        padding: 23px 0;
-                    }
-                    img {
-                        position: relative;
-                        left: 130px;
-                        bottom: 206px;
-                        margin: 20px;
+                    .icon {
+                        width: 150px;
+                        height: 150px;
+                        padding: 10px 36px;
                     }
                 }
-
-                .why-choose-us-features:last-of-type {
-                    img {
-                        left: 150px;
-                    }
-                }
-
             }
 
             .why-choose-us-text:last-of-type {
                 .why-choose-us-features {
                     text-align: left;
-                    padding-left: 100px;
-                    position: relative;
-                    left: 45px;
-                    
-                    img {
-                        left: -130px;
-                    }
                 }
             }
         }
