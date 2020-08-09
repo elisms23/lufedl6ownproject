@@ -64,7 +64,6 @@ nav {
 
 .first-screen {
   width: 100%;
-  background-color: red;
   margin: 0; }
   .first-screen .container {
     width: 100%;
@@ -76,30 +75,54 @@ nav {
     background-size: cover;
     display: flex;
     flex-flow: row nowrap; }
-    .first-screen .container .first-screen-empty-squares {
+    .first-screen .container .svg-container {
       position: absolute;
       width: 100%;
       height: 880px;
       margin: 0;
-      background-image: url("../img/empty_squares.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       display: flex;
-      justify-content: space-between;
-      background-color: rgba(22, 22, 26, 0.2); }
-      .first-screen .container .first-screen-empty-squares svg {
+      justify-content: space-between; }
+      .first-screen .container .svg-container svg {
         width: 5em;
         height: 5em;
-        margin: 40px;
+        margin: 20px;
         margin-top: 470px;
         padding: 30px;
         border: 4px solid rgba(255, 255, 255, 0.1);
         background-color: rgba(0, 0, 0, 0.05);
         border-radius: 50%;
         z-index: 2; }
-      .first-screen .container .first-screen-empty-squares svg:hover {
+      .first-screen .container .svg-container svg:hover {
         cursor: pointer; }
+    .first-screen .container .first-screen-empty-squares {
+      position: absolute;
+      width: 100%;
+      height: 880px;
+      margin: 0;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      background-color: rgba(53, 53, 56, 0.3); }
+      .first-screen .container .first-screen-empty-squares .squares-empty-div {
+        height: 880px;
+        flex: 1;
+        background-color: rgba(32, 33, 36, 0.5); }
+      .first-screen .container .first-screen-empty-squares .squares {
+        width: 880px;
+        height: 880px;
+        margin: 0;
+        border: 130px solid rgba(32, 33, 36, 0.5);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr; }
+        .first-screen .container .first-screen-empty-squares .squares .square {
+          width: 124px;
+          height: 124px;
+          background-color: rgba(32, 33, 36, 0.5); }
+        .first-screen .container .first-screen-empty-squares .squares .empty {
+          background-color: transparent; }
     .first-screen .container .first-screen-content {
       margin: 0;
       display: flex;
@@ -670,7 +693,7 @@ section.our-designers {
         .our-project .container .our-projects-samples .project-dark-layer svg {
           width: 5em;
           height: 5em;
-          margin: 40px;
+          margin: 20px;
           margin-top: 470px;
           padding: 30px;
           border: 4px solid rgba(255, 255, 255, 0.1);
