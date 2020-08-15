@@ -16,6 +16,7 @@ button {
 
 .flex-container {
   display: flex; }
+<<<<<<< HEAD
 
 section.examples {
   display: grid;
@@ -54,123 +55,6 @@ section.examples {
         letter-spacing: 3px;
         text-align: left;
         margin-bottom: 26px;
-        margin-top: 0; }
-      section.examples .patio-example .example-description a {
-        font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
-        letter-spacing: 1.4px;
-        text-decoration: unset; }
-  section.examples .design-example {
-    position: relative; }
-    section.examples .design-example .example-description {
-      position: absolute;
-      top: 51px;
-      left: 48px;
-      text-decoration: unset;
-      text-transform: uppercase;
-      color: #709aa5; }
-      section.examples .design-example .example-description h2 {
-        font-family: Poppins;
-        font-size: 30px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.25;
-        letter-spacing: 3px;
-        text-align: left;
-        margin-bottom: 26px;
-        margin-top: 0; }
-      section.examples .design-example .example-description a {
-        font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
-        letter-spacing: 1.4px;
-        text-decoration: unset; }
-  section.examples .ceramics-example {
-    position: relative; }
-    section.examples .ceramics-example .example-description {
-      position: absolute;
-      top: 53px;
-      left: 47px;
-      text-decoration: unset;
-      text-transform: uppercase;
-      color: #362f33; }
-      section.examples .ceramics-example .example-description h2 {
-        font-family: Poppins;
-        font-size: 30px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.25;
-        letter-spacing: 3px;
-        text-align: left;
-        margin-bottom: 26px;
-        margin-top: 0; }
-      section.examples .ceramics-example .example-description a {
-        font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
-        letter-spacing: 1.4px;
-        text-decoration: unset; }
-=======
-  grid-template-areas: "patio-example plane-example design-example design-example"  "patio-example ceramics-example ceramics-example apples-example";
-}
-
-section.examples #patio-example {
-  grid-area: patio-example;
-}
-
-section.examples #plane-example {
-  grid-area: plane-example;
-}
-
-section.examples #design-example {
-  grid-area: design-example;
-}
-
-section.examples #ceramics-example {
-  grid-area: ceramics-example;
-}
-
-section.examples #apples-example {
-  grid-area: apples-example;
-}
-
-section.examples img {
-  height: 100%;
-}
-
-section.examples .patio-example {
-  position: relative;
-}
-
-section.examples .patio-example .example-description {
-  position: absolute;
-  padding: 50px;
-  top: 28px;
-  left: 50px;
-  text-decoration: unset;
-  text-transform: uppercase;
-  color: #82a439;
-}
-
-section.examples .patio-example .example-description h2 {
-  font-family: Poppins;
-  font-size: 30px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.25;
-  letter-spacing: 3px;
-  text-align: left;
-  margin-bottom: 26px;
   margin-top: 0;
 }
 
@@ -215,9 +99,16 @@ section.examples .design-example .example-description h2 {
   margin-top: 0;
 }
 
-section.examples .design-example .example-description a {
+
+.responsive {
+  width: 100%;
+  height: auto; }
+
+nav {
+  word-spacing: 35px; }
+
+.nav-link {
   font-size: 14px;
-  font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -229,38 +120,32 @@ section.examples .ceramics-example {
   position: relative;
 }
 
-section.examples .ceramics-example .example-description {
-  position: absolute;
-  top: 53px;
-  left: 47px;
-  text-decoration: unset;
-  text-transform: uppercase;
-  color: #362f33;
-}
-
-section.examples .ceramics-example .example-description h2 {
-  font-family: Poppins;
-  font-size: 30px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.25;
-  letter-spacing: 3px;
-  text-align: left;
-  margin-bottom: 26px;
-  margin-top: 0;
-}
-
-section.examples .ceramics-example .example-description a {
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 1.4px;
-  text-decoration: unset;
-}
->>>>>>> devElis1
+    section.examples .ceramics-example .example-description {
+      position: absolute;
+      top: 53px;
+      left: 47px;
+      text-decoration: unset;
+      text-transform: uppercase;
+      color: #362f33; }
+      section.examples .ceramics-example .example-description h2 {
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: 3px;
+        text-align: left;
+        margin-bottom: 26px;
+        margin-top: 0; }
+      section.examples .ceramics-example .example-description a {
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.4px;
+        text-decoration: unset; }
 
 section.our-collection {
   display: flex;
@@ -458,6 +343,17 @@ div.item-collection:hover {
     color: #000000;
     margin: 0; }
 
+<<<<<<< HEAD
+section.our-designers .flex-container .designer3 p::after {
+  content: '';
+  position: absolute;
+  right: 14px;
+  bottom: 30px;
+  width: 172px;
+  height: 3px;
+  background-color: #f2cd7a;
+}
+
 section.our-designers {
   display: flex;
   flex-direction: column;
@@ -466,7 +362,6 @@ section.our-designers {
   height: 980px;
   background-color: black;
   background-image: url("../img/designersfield.png");
-<<<<<<< HEAD
   padding: 50px 80px; }
   section.our-designers .heading {
     width: 100%;
@@ -605,191 +500,7 @@ section.our-designers {
         position: absolute;
         bottom: -39px;
         left: -92px; }
-=======
-  padding: 50px 80px;
-}
-
-section.our-designers .heading {
-  width: 100%;
-  text-align: center;
-}
-
-section.our-designers .heading h1 {
-  margin-top: 0;
-  padding-top: 38px;
-  padding-bottom: 16px;
-  height: 30px;
-  font-family: Poppins;
-  font-size: 40px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: 4px;
-  color: #f2cd7a;
-  text-transform: uppercase;
-}
-
-section.our-designers .heading h1 #our {
-  position: relative;
-}
-
-section.our-designers .heading h1 #our::after {
-  content: '';
-  position: absolute;
-  left: -56px;
-  bottom: -5px;
-  width: 205px;
-  height: 1px;
-  opacity: 0.3;
-  background-color: #ffffff;
-}
-
-section.our-designers .heading h1 #h1designer {
-  position: relative;
-}
-
-section.our-designers .heading h1 #h1designer::after {
-  content: '';
-  position: absolute;
-  left: 72px;
-  bottom: -5px;
-  width: 205px;
-  height: 1px;
-  opacity: 0.3;
-  background-color: #ffffff;
-}
-
-section.our-designers .flex-container {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  padding-bottom: 30px;
-}
-
-section.our-designers .flex-container .designer1 {
-  position: relative;
-  padding: 0 14px 0 14px;
-}
-
-section.our-designers .flex-container .designer1 #imgdes {
-  position: relative;
-  z-index: 1;
-  transform: translateY(4%);
-}
-
-section.our-designers .flex-container .designer1 p {
-  position: relative;
-  height: 24px;
-  font-family: Poppins;
-  font-size: 30px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 1.5px;
-  text-align: left;
-  color: #fafafa;
-}
-
-section.our-designers .flex-container .designer1 p::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 172px;
-  height: 3px;
-  background-color: #f2cd7a;
-}
-
-section.our-designers .flex-container .designer1 #chessfield1 {
-  position: absolute;
-  bottom: -39px;
-  left: -92px;
-  z-index: 0;
-}
-
-section.our-designers .flex-container .designer2 {
-  position: relative;
-  padding: 0 14px 0 14px;
-}
-
-section.our-designers .flex-container .designer2 #imgdes {
-  position: relative;
-  z-index: 1;
-  transform: translateY(4%);
-}
-
-section.our-designers .flex-container .designer2 p {
-  height: 24px;
-  font-family: Poppins;
-  font-size: 30px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 1.5px;
-  text-align: left;
-  color: #fafafa;
-}
-
-section.our-designers .flex-container .designer2 p::after {
-  content: '';
-  position: absolute;
-  right: 14px;
-  bottom: 29px;
-  width: 164px;
-  height: 3px;
-  background-color: #f2cd7a;
-}
-
-section.our-designers .flex-container .designer2 #chessfield2 {
-  position: absolute;
-  bottom: -39px;
-  left: -92px;
-}
-
-section.our-designers .flex-container .designer3 {
-  position: relative;
-  padding: 0 14px 0 14px;
-}
-
-section.our-designers .flex-container .designer3 #imgdes {
-  position: relative;
-  z-index: 1;
-  transform: translateY(4%);
-}
-
-section.our-designers .flex-container .designer3 p {
-  height: 24px;
-  font-family: Poppins;
-  font-size: 30px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 1.5px;
-  text-align: left;
-  color: #fafafa;
-}
-
-section.our-designers .flex-container .designer3 p::after {
-  content: '';
-  position: absolute;
-  right: 14px;
-  bottom: 30px;
-  width: 172px;
-  height: 3px;
-  background-color: #f2cd7a;
-}
-
-section.our-designers .flex-container .designer3 #chessfield3 {
-  position: absolute;
-  bottom: -39px;
-  left: -92px;
-}
->>>>>>> devElis1
+>>>>>>> alexey_div
 
 .our-project {
   width: 100%; 
@@ -849,64 +560,43 @@ section.our-designers .flex-container .designer3 #chessfield3 {
       flex-flow: row nowrap; 
     }
       
-    .our-project .container .our-projects-samples svg {
-        position: absolute; 
-      }
-      
->>>>>>> devElis1
-      .our-project .container .our-projects-samples .project {
-        text-transform: uppercase;
-        color: #fff;
-        width: 25%;
-<<<<<<< HEAD
-        margin: 0; }
-=======
-        margin: 0; 
-      }
-        
-      .our-project .container .our-projects-samples .project .project-dark-layer {
-          width: 100%;
-          height: 1000px;
-          background-color: #404040;
-          opacity: 0.4; 
-        }
-        
->>>>>>> devElis1
-        .our-project .container .our-projects-samples .project h3 {
-          margin: 0;
-          font-size: 30px;
-          letter-spacing: 3px;
-<<<<<<< HEAD
-          position: relative;
-          padding: 57px 100px 61px 57px;
-          height: 300px; }
-=======
-          position: absolute; 
-        }
-        
->>>>>>> devElis1
-        .our-project .container .our-projects-samples .project p {
-          margin: 44px;
-          transform: rotate(-90deg);
-          font-size: 20px;
-          letter-spacing: 7.96px;
-          font-weight: 600;
-<<<<<<< HEAD
-          position: relative;
-          width: 400px;
-          top: 400px;
-          right: 190px; }
-      .our-project .container .our-projects-samples #project-1 {
-=======
-          position: absolute; 
-        }
-      
-        .our-project .container .our-projects-samples #project-1 {
->>>>>>> devElis1
-        background-image: url("../img/modern-living-room-1.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; 
+.our-project .container .our-projects-samples .project-dark-layer svg:hover {
+  cursor: pointer;
+}
+
+.our-project .container .our-projects-samples .project {
+  text-transform: uppercase;
+  color: #fff;
+  width: 25%;
+  margin: 0;
+}
+
+.our-project .container .our-projects-samples .project h3 {
+  margin: 0;
+  font-size: 30px;
+  letter-spacing: 3px;
+  position: relative;
+  padding: 57px 100px 61px 57px;
+  height: 300px;
+}
+
+.our-project .container .our-projects-samples .project p {
+  margin: 44px;
+  transform: rotate(-90deg);
+  font-size: 20px;
+  letter-spacing: 7.96px;
+  font-weight: 600;
+  position: relative;
+  width: 400px;
+  top: 400px;
+  right: 190px;
+}
+
+.our-project .container .our-projects-samples #project-1 {
+  background-image: url("../img/modern-living-room-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
       }
       
       .our-project .container .our-projects-samples #project-2 {
@@ -1135,17 +825,11 @@ footer .container {
           height: 42px;
           padding: 1px;
           border: 1px solid rgba(255, 255, 255, 0.5);
-          border-radius: 50%; 
-        }
-          
-        footer .container .footer-info .social-media a img {
-            height: 30px;
-<<<<<<< HEAD
-            width: 30px; }
+  border-radius: 50%;
+}
 
-/*# sourceMappingURL=main-page.css.map */
-=======
-            width: 30px; 
+footer .container .footer-info .social-media a img {
+  height: 30px;
+  width: 30px;
           }
 /*# sourceMappingURL=main-page.css.map */
->>>>>>> devElis1
