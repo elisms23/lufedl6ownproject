@@ -15,48 +15,66 @@ button {
 .flex-container {
   display: flex; }
 
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif; }
-
 header {
-  background-color: black;
-  height: 96px; }
-
-.site-logo {
-  width: 191px;
-  position: relative;
-  left: 216px;
-  top: 34px;
-  margin-right: 340px;
-  height: 30px; }
-
-
-.responsive {
   width: 100%;
-  height: auto; }
-
-nav {
-  word-spacing: 35px; }
-
-.nav-link {
-  font-size: 14px;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 7.36;
-  letter-spacing: -0.6px;
-  text-align: left;
-  color: #fefefe;
-  font-weight: bold;
-  font-family: 'Poppins', sans-serif;
-  text-decoration: none; }
-
-.img-1 {
-  width: 100%;
-  left: 0;
-  top: 0;
-  height: 100%;
-  object-fit: cover; }
+  height: 100px;
+  background-color: #1e1e1d; }
+  header .container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 34px; }
+  header .logo-header {
+    height: 30px;
+    margin: 0 41px; }
+  header a.nav-link {
+    position: relative;
+    margin-left: 23px;
+    margin-right: 23px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.36;
+    letter-spacing: 2.4px;
+    text-align: left;
+    color: #fefefe;
+    text-transform: uppercase;
+    text-decoration: none; }
+  header .header-nav {
+    position: relative;
+    margin: 0 18px; }
+  header .header-nav::after {
+    content: '';
+    position: absolute;
+    left: 23px;
+    height: 4px;
+    bottom: -33px;
+    width: 41px;
+    background-color: #f2cd7a; }
+  header .buttons-header {
+    margin: 0 30px; }
+  header .header-button {
+    background-color: #1e1e1d;
+    color: #fefefe;
+    border: none;
+    margin: 0 5px 0 12px;
+    position: relative; }
+    header .header-button i {
+      font-size: 21px; }
+    header .header-button p#number-of-items {
+      position: absolute;
+      font-size: 11px;
+      padding: 2px;
+      height: 20px;
+      left: 25px;
+      bottom: 10px;
+      width: 20px;
+      border-radius: 50%;
+      border: 1px solid #1e1e1d;
+      background-color: #cc9a36;
+      color: #fefefe; }
 
 .first-screen {
   width: 100%;
@@ -85,11 +103,13 @@ nav {
         margin-top: 470px;
         padding: 30px;
         border: 4px solid rgba(255, 255, 255, 0.1);
-        background-color: rgba(0, 0, 0, 0.05);
+        background-color: rgba(0, 0, 0, 0.1);
         border-radius: 50%;
         z-index: 2; }
       .first-screen .container .svg-container svg:hover {
-        cursor: pointer; }
+        cursor: pointer;
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        background-color: rgba(0, 0, 0, 0.3); }
     .first-screen .container .first-screen-empty-squares {
       position: absolute;
       width: 100%;
@@ -221,7 +241,8 @@ section.examples {
   section.examples #apples-example {
     grid-area: apples-example; }
   section.examples img {
-    height: 100%; }
+    height: 100%;
+    width: 100%; }
   section.examples .patio-example {
     position: relative; }
     section.examples .patio-example .example-description {
@@ -507,6 +528,27 @@ div.item-collection:hover {
     color: #000000;
     margin: 0; }
 
+.button-more {
+  text-align: center; }
+
+.our-collection-more {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d6d6d;
+  margin: 0;
+  background-color: #f2cd7a;
+  width: 185px;
+  height: 57px;
+  opacity: 1.11;
+  border-radius: 45px;
+  margin-top: 26px; }
+
 section.our-designers {
   display: flex;
   flex-direction: column;
@@ -693,15 +735,20 @@ section.our-designers {
           margin-top: 470px;
           padding: 30px;
           border: 4px solid rgba(255, 255, 255, 0.1);
-          background-color: rgba(0, 0, 0, 0.05);
+          background-color: rgba(0, 0, 0, 0.1);
           border-radius: 50%; }
         .our-project .container .our-projects-samples .project-dark-layer svg:hover {
-          cursor: pointer; }
+          cursor: pointer;
+          background-color: rgba(0, 0, 0, 0.5);
+          border: 4px solid rgba(255, 255, 255, 0.3); }
       .our-project .container .our-projects-samples .project {
         text-transform: uppercase;
         color: #fff;
         width: 25%;
-        margin: 0; }
+        margin: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
         .our-project .container .our-projects-samples .project h3 {
           margin: 0;
           font-size: 30px;
@@ -720,26 +767,14 @@ section.our-designers {
           top: 400px;
           right: 190px; }
       .our-project .container .our-projects-samples #project-1 {
-        background-image: url("../img/modern-living-room-1.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; }
+        background-image: url("../img/modern-living-room-1.png"); }
       .our-project .container .our-projects-samples #project-2 {
-        background-image: url("../img/modern-living-room-2.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; }
+        background-image: url("../img/modern-living-room-2.png"); }
       .our-project .container .our-projects-samples #project-3 {
-        background-image: url("../img/modern-living-room-3.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; }
+        background-image: url("../img/modern-living-room-3.png"); }
       .our-project .container .our-projects-samples #project-4 {
-        background-image: url("../img/modern-living-room-4.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      .our-project .container .our-projects-samples .project-test {
+        background-image: url("../img/modern-living-room-4.png"); }
+      .our-project .container .our-projects-samples .project-hidden {
         visibility: hidden; }
 
 .from-our-blog {
