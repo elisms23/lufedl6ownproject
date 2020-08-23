@@ -752,7 +752,8 @@ section.our-designers {
         flex-shrink: 0;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover; }
+        background-size: cover;
+        transition: 0.5s ease-in-out; }
         .our-project .container .our-projects-samples .project h3 {
           margin: 0;
           font-size: 30px;
