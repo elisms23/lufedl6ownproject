@@ -719,7 +719,8 @@ section.our-designers {
       width: 100%;
       height: 1000px;
       display: flex;
-      flex-flow: row nowrap; }
+      flex-flow: row nowrap;
+      overflow: hidden; }
       .our-project .container .our-projects-samples .project-dark-layer {
         width: 100%;
         height: 1000px;
@@ -741,11 +742,14 @@ section.our-designers {
           cursor: pointer;
           background-color: rgba(0, 0, 0, 0.5);
           border: 4px solid rgba(255, 255, 255, 0.3); }
+        .our-project .container .our-projects-samples .project-dark-layer .arrow-left {
+          visibility: hidden; }
       .our-project .container .our-projects-samples .project {
         text-transform: uppercase;
         color: #fff;
-        width: 25%;
         margin: 0;
+        width: 25%;
+        flex-shrink: 0;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
@@ -774,6 +778,14 @@ section.our-designers {
         background-image: url("../img/modern-living-room-3.png"); }
       .our-project .container .our-projects-samples #project-4 {
         background-image: url("../img/modern-living-room-4.png"); }
+      .our-project .container .our-projects-samples #project-5 {
+        background-image: url("../img/modern-living-room-5.jpg"); }
+      .our-project .container .our-projects-samples #project-6 {
+        background-image: url("../img/modern-living-room-6.jpg"); }
+      .our-project .container .our-projects-samples #project-7 {
+        background-image: url("../img/modern-living-room-7.jpg"); }
+      .our-project .container .our-projects-samples #project-8 {
+        background-image: url("../img/modern-living-room-8.jpg"); }
       .our-project .container .our-projects-samples .project-hidden {
         visibility: hidden; }
 

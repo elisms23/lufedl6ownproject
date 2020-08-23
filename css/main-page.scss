@@ -852,11 +852,11 @@ section.our-designers {
         }
 
         .our-projects-samples {
-
             width: 100%;
             height: 1000px;
             display: flex;
             flex-flow: row nowrap;
+            overflow: hidden;
 
             .project-dark-layer {
                 width: 100%;
@@ -883,13 +883,18 @@ section.our-designers {
                     background-color: rgba(0, 0, 0, 0.5);
                     border: 4px solid rgba(255, 255, 255, 0.3);
                 }
+
+                .arrow-left {
+                    visibility: hidden;
+                }
             }
 
             .project {
                 text-transform: uppercase;
                 color: #fff;
-                width: 25%;
                 margin: 0;
+                width: 25%;
+                flex-shrink: 0;
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -930,6 +935,22 @@ section.our-designers {
 
             #project-4 {
                 background-image: url("../img/modern-living-room-4.png");
+            }
+
+            #project-5 {
+                background-image: url("../img/modern-living-room-5.jpg");
+            }
+
+            #project-6 {
+                background-image: url("../img/modern-living-room-6.jpg");
+            }
+
+            #project-7 {
+                background-image: url("../img/modern-living-room-7.jpg");
+            }
+
+            #project-8 {
+                background-image: url("../img/modern-living-room-8.jpg");
             }
 
             .project-hidden {
